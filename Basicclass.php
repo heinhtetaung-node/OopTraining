@@ -52,7 +52,6 @@ $arr = $TestObj->getData();
 var_dump($arr);
 
 echo '<h2>get data from BasicObj after insert</h2>';
-$BasicObj->create('oop', 'Object Oriented Programming');
 $arr = $BasicObj->getData();
 var_dump($arr);
 
